@@ -1,0 +1,7 @@
+<launch>
+  <!-- Set the ROS namespace for the talker node -->
+    <!-- Start the talker node -->
+    <node name="talker" pkg="ros_example" type="talker" output="screen">
+      <!-- You can add any additional arguments or parameters here -->
+    </node>
+</launch>
